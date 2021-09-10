@@ -10,7 +10,7 @@ public final class ImageViewerController: UIViewController {
     fileprivate let configuration: ImageViewerConfiguration?
     
     public override var prefersStatusBarHidden: Bool {
-        return true
+        return false
     }
     
     public init(configuration: ImageViewerConfiguration?) {
